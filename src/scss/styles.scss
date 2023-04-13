@@ -34,6 +34,7 @@ $body-color: #333;
 $body-bg: #f5f5dc;
 $border-radius: 0.4rem;
 $primary: #ff7f50;
+$secondary: #3527f0;
 
 // Required
 @import 'bootstrap/scss/functions';
@@ -60,7 +61,7 @@ $primary: #ff7f50;
 // @import "bootstrap/scss/breadcrumb";
 // @import "bootstrap/scss/accordion";
 @import 'bootstrap/scss/pagination';
-// @import "bootstrap/scss/badge";
+@import "bootstrap/scss/badge";
 // @import "bootstrap/scss/alert";
 // @import "bootstrap/scss/progress";
 @import "bootstrap/scss/list-group";
