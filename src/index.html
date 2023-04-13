@@ -39,7 +39,7 @@
 
     <div class="container py-4 px-3 mx-auto">
       <div class = "row">
-        <div class = "col md-9">
+        <div class = "col-9">
           <div class = "row">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -70,7 +70,7 @@
           </div>
           <div class = "row">
             <div class="card-group">
-              <div class="card">
+              <div class="card border-primary mb-3">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Panaderia</h5>
@@ -78,7 +78,7 @@
                 </div>
 
               </div>
-              <div class="card">
+              <div class="card border-primary mb-3">
                 <img class="card-img-top" src="https://th.bing.com/th/id/OIP.K8s0H1eMspgGT2RiaXEBjwHaFj?pid=ImgDet&w=177&h=132.75&c=70" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Reposteria</h5>
@@ -86,7 +86,7 @@
                 </div>
 
               </div>
-              <div class="card">
+              <div class="card border-primary mb-3">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Bebidas Calientes</h5>
@@ -94,7 +94,7 @@
                 </div>
   
               </div>
-              <div class="card">
+              <div class="card border-primary mb-3">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Pastas Artesanales</h5>
@@ -102,7 +102,7 @@
                 </div>
   
               </div>
-              <div class="card">
+              <div class="card border-primary mb-3">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -110,7 +110,7 @@
                 </div>
 
               </div>
-              <div class="card">
+              <div class="card border-primary mb-3">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -121,12 +121,23 @@
             </div>
           </div>
         </div>
-        <div class = "col md-3">
+        <div class = "col-3">
           <div class="card border-primary mb-3" style="max-width: 18rem;">
             <div class="card-header">Escoge el producto que mas te interesa </div>
             <div class="card-body text-primary">
-              <h5 class="card-title">Primary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="input-group mb-3">
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>Seleccione</option>
+                  <option value="1">Pan brioche</option>
+                  <option value="2">Pan Finas Hiervas</option>
+                  <option value="3">Pan de Remolacha</option>
+                  <option value="3">Pan Primavera</option>
+                </select>
+              </div>
+              <h5 class="card-title">Descripcion:</h5>
+              <p class="card-text">Nuestros panes son de fermentacion lenta realizados con tecnicas artesanales que garantizan un gran sabor con cada bocado, ademas que proveemos de una gran diversidad de sabores que fortalecen la experiencia de probarlo.</p>
+              <hr>
+              <input class="btn btn-primary" type="button" value="Comprar">
             </div>
           </div>
         </div>  
